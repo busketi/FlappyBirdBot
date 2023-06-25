@@ -16,4 +16,4 @@ deployment: clean
 
 # ship the deployment package to PyPi
 ship: test deployment
-	twine upload dist/*
+	twine upload dist/

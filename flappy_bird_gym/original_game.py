@@ -11,16 +11,18 @@ import sys
 import numpy as np
 import itertools
 from itertools import combinations
+import argparse
+
 
 
 import pygame
 from pygame.locals import *
 
 # ASSETS_DIR = "./flappy-bird-gym/flappy_bird_gym/assets"
-ASSETS_DIR = "./FlappyBirdBot/Flappy/flappybirdfolder/flappy-bird-gym/flappy_bird_gym/assets"
+ASSETS_DIR = "./flappy_bird_gym/assets"
 
 
-FPS = 30
+FPS = 200
 SCREEN_WIDTH = 288
 SCREEN_HEIGHT = 512
 PIPE_GAP_SIZE = 100  # gap between upper and lower part of pipe
@@ -64,7 +66,7 @@ PIPES_LIST = (
 )
 
 
-def main(main_atrib, horizon, iteration):
+def main(main_atrib, horizon, iteration ):
     global SCREEN, FPSCLOCK
     pygame.init()
     FPSCLOCK = pygame.time.Clock()
@@ -691,6 +693,18 @@ def get_hitmask(image):
 
 
 if __name__ == '__main__':
-    score = main(main_atrib=2, horizon=20, iteration=20)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--main_atrib', type=int, default=2, help='Value for main_atrib')
+    parser.add_argument('--horizon', type=int, default=20, help='Value for horizon')
+    parser.add_argument('--iteration', type=int, default=20, help='Value for iteration')
+    parser.add_argument('--fps', type=int, default=30, help='Value for fps')
+    
+    args = parser.parse_args()
+    
+    FPS = args.fps
+
+    # Call the main function with the provided arguments
+    score = main(args.main_atrib, args.horizon, args.iteration)
     # with open("power0horizon10", "w") as fp:
     #     json.dump(score, fp)
+    print("mikac")
