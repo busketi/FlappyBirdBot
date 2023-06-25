@@ -10,7 +10,7 @@ The implementation of the game's logic and graphics was based on the flappy-bird
 
 <p align="center">
   <img align="center" 
-       src="https://github.com/busketi/flappy-bird-gym/blob/main/imgs/yellow_bird_playing.gif?raw=true" 
+       src="https://github.com/busketi/flappy-bird-gym/blob/main/imgs/Capture.PNG?raw=true" 
        width="200"/>
 
 </p>
