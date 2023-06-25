@@ -7,4 +7,4 @@ cd /d "%~dp0"
 
 
 REM Command to execute
-python3.9.exe flappy_bird_gym\original_game.py --main_atrib %1 --horizon %2 --iteration %3 --fps %4
+python flappy_bird_gym\original_game.py --main_atrib %1 --horizon %2 --iteration %3 --fps %4
