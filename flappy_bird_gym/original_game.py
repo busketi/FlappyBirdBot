@@ -22,7 +22,7 @@ from pygame.locals import *
 ASSETS_DIR = "./flappy_bird_gym/assets"
 
 
-FPS = 200
+# FPS = 200
 SCREEN_WIDTH = 288
 SCREEN_HEIGHT = 512
 PIPE_GAP_SIZE = 100  # gap between upper and lower part of pipe
@@ -700,11 +700,8 @@ if __name__ == '__main__':
     parser.add_argument('--fps', type=int, default=30, help='Value for fps')
     
     args = parser.parse_args()
-    
     FPS = args.fps
 
     # Call the main function with the provided arguments
     score = main(args.main_atrib, args.horizon, args.iteration)
-    # with open("power0horizon10", "w") as fp:
-    #     json.dump(score, fp)
-    print("mikac")
+    print("Goodbye, see you later! -.- busketi")
