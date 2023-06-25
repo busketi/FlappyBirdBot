@@ -10,7 +10,7 @@ The implementation of the game's logic and graphics was based on the flappy-bird
 
 <p align="center">
   <img align="center" 
-       src="https://github.com/busketi/FlappyBirdBot/tree/main/imgs/Capture.PNG?raw=true" 
+       src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/Capture.PNG?raw=truee" 
        width="200"/>
 
 </p>
