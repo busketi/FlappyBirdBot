@@ -31,18 +31,26 @@ optimal horizon = 20
 
     $ .\flappy_bird_gym.bat power horizon iteration FPS
 
-## Agent Performance Metrics
+## Agent Performance Metrics over 100 iterations
 
-#### Mean Score
+### Mean Score 
 
-Mean score achieved:
 
 <p align="center">
   <img align="center" 
-       src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/mean_score.PNG?raw=truee" 
+       src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/mean_score.png?raw=truee" 
        width="200"/>
 
 </p>
 
-The mean score provides an overview of the agent's performance over 100 iterations.
+### Max Score
+
+
+<p align="center">
+  <img align="center" 
+       src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/max_score.png?raw=truee" 
+       width="200"/>
+
+</p>
+
 
