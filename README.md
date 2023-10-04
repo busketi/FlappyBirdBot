@@ -39,7 +39,7 @@ optimal horizon = 20
 <p align="center">
   <img align="center" 
        src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/mean_score.png?raw=truee" 
-       width="200"/>
+       width="400"/>
 
 </p>
 
@@ -49,7 +49,7 @@ optimal horizon = 20
 <p align="center">
   <img align="center" 
        src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/max_score.png?raw=truee" 
-       width="200"/>
+       width="400"/>
 
 </p>
 
