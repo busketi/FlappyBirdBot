@@ -695,7 +695,7 @@ def get_hitmask(image):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--main_atrib', type=int, default=2, help='Value for main_atrib')
-    parser.add_argument('--horizon', type=int, default=20, help='Value for horizon')
+    parser.add_argument('--horizon', type=int, default=25, help='Value for horizon')
     parser.add_argument('--iteration', type=int, default=20, help='Value for iteration')
     parser.add_argument('--fps', type=int, default=30, help='Value for fps')
     

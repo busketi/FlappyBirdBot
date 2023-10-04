@@ -10,8 +10,8 @@ The implementation of the game's logic and graphics was based on the flappy-bird
 
 <p align="center">
   <img align="center" 
-       src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/Capture.PNG?raw=truee" 
-       width="200"/>
+       src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/agent_motion.gif?raw=truee" 
+       width="250"/>
 
 </p>
 
@@ -39,7 +39,7 @@ optimal horizon = 20
 <p align="center">
   <img align="center" 
        src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/mean_score.png?raw=truee" 
-       width="400"/>
+       width="450"/>
 
 </p>
 
@@ -49,7 +49,7 @@ optimal horizon = 20
 <p align="center">
   <img align="center" 
        src="https://github.com/busketi/FlappyBirdBot/blob/main/imgs/max_score.png?raw=truee" 
-       width="400"/>
+       width="450"/>
 
 </p>
 
